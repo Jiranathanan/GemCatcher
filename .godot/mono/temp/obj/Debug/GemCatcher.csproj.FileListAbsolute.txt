@@ -1,0 +1,17 @@
+D:\GodotProjects\GemCatcher\.godot\mono\temp\bin\Debug\GemCatcher.deps.json
+D:\GodotProjects\GemCatcher\.godot\mono\temp\bin\Debug\GemCatcher.runtimeconfig.json
+D:\GodotProjects\GemCatcher\.godot\mono\temp\bin\Debug\GemCatcher.dll
+D:\GodotProjects\GemCatcher\.godot\mono\temp\bin\Debug\GemCatcher.pdb
+D:\GodotProjects\GemCatcher\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\GodotProjects\GemCatcher\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\GodotProjects\GemCatcher\.godot\mono\temp\obj\Debug\GemCatcher.csproj.AssemblyReference.cache
+D:\GodotProjects\GemCatcher\.godot\mono\temp\obj\Debug\GemCatcher.GeneratedMSBuildEditorConfig.editorconfig
+D:\GodotProjects\GemCatcher\.godot\mono\temp\obj\Debug\GemCatcher.AssemblyInfoInputs.cache
+D:\GodotProjects\GemCatcher\.godot\mono\temp\obj\Debug\GemCatcher.AssemblyInfo.cs
+D:\GodotProjects\GemCatcher\.godot\mono\temp\obj\Debug\GemCatcher.csproj.CoreCompileInputs.cache
+D:\GodotProjects\GemCatcher\.godot\mono\temp\obj\Debug\GemCatcher.csproj.Up2Date
+D:\GodotProjects\GemCatcher\.godot\mono\temp\obj\Debug\GemCatcher.dll
+D:\GodotProjects\GemCatcher\.godot\mono\temp\obj\Debug\refint\GemCatcher.dll
+D:\GodotProjects\GemCatcher\.godot\mono\temp\obj\Debug\GemCatcher.pdb
+D:\GodotProjects\GemCatcher\.godot\mono\temp\obj\Debug\GemCatcher.genruntimeconfig.cache
+D:\GodotProjects\GemCatcher\.godot\mono\temp\obj\Debug\ref\GemCatcher.dll

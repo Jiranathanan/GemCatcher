@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "E0P1P4ATP7Q=",
+  "success": true,
+  "projectFilePath": "D:\\GodotProjects\\GemCatcher\\GemCatcher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jiran\\.nuget\\packages\\godot.sourcegenerators\\4.5.1\\godot.sourcegenerators.4.5.1.nupkg.sha512",
+    "C:\\Users\\jiran\\.nuget\\packages\\godotsharp\\4.5.1\\godotsharp.4.5.1.nupkg.sha512",
+    "C:\\Users\\jiran\\.nuget\\packages\\godotsharpeditor\\4.5.1\\godotsharpeditor.4.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

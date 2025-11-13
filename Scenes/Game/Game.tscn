@@ -13,4 +13,4 @@ scale = Vector2(0.75, 0.75)
 texture = ExtResource("2_gwu2e")
 
 [node name="Paddle" parent="." instance=ExtResource("3_xbxml")]
-position = Vector2(576, 324)
+position = Vector2(576, 600)

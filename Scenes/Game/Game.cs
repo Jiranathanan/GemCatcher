@@ -12,4 +12,9 @@ public partial class Game : Node2D
 	public override void _Process(double delta)
 	{
 	}
+
+	private void OnScored()
+    {
+        GD.Print("OnScored received !");
+    }
 }

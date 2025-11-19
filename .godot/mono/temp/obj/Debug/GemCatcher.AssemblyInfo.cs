@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GemCatcher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b891723d001d8e6cf3ac836b7519cb54f519049d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+253d4caed0c0e337f361542a9cb8f9e5f01bf324")]
 [assembly: System.Reflection.AssemblyProductAttribute("GemCatcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GemCatcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,4 @@
-res://Scenes/Game/Game.cs
 res://Scenes/Game/Game.tscn
+res://Scenes/Game/Game.cs
 res://Scenes/Paddle/Paddle.cs
 res://Scenes/Gem/Gem.cs

@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1763555966
+::res://::1763638535
 icon.svg::CompressedTexture2D::6914418580914901663::1762846777::1762846790::1::::<><><>0<>0<>b815e13174734e3a0d1d63328cbc8e93<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1763130490::0::1::::<><><>0<>0<><>::
 ::res://assets/::1763193809
@@ -10,9 +10,9 @@ GameBg.png::CompressedTexture2D::9109949788842943266::1762858275::1762858276::1:
 paddleBlu.png::CompressedTexture2D::257266202797753862::1762858275::1762858276::1::::<><><>0<>0<>3313c4e48e7876fe4dfc04b9342a5ac3<>res://.godot/imported/paddleBlu.png-f75258e8e340f5b13a0243af8fa0790c.ctex::
 spell1_0.wav::AudioStreamWAV::3379080937454514038::1762858275::1762858276::1::::<><><>0<>0<>6ff515a0f8c71c2f6dc2bef81eef0523<>res://.godot/imported/spell1_0.wav-e5760d41344d3af38920e70ae900dfc5.sample::
 ::res://Scenes/::1763191878
-::res://Scenes/Game/::1763396845
-Game.cs::CSharpScript::3676343413493645230::1763396684::0::1::::<>Node2D<><>0<>0<><>::
-Game.tscn::PackedScene::2553863760306503649::1763396845::0::1::::<><><>0<>0<><>::uid://bsm33r1d6vr07::::res://Scenes/Game/Game.cs<>uid://d216souoesuys::::res://assets/GameBg.png<>uid://buoptplmkqwae::::res://Scenes/Paddle/Paddle.tscn<>uid://csy71taqtjqlu::::res://Scenes/Gem/Gem.tscn
+::res://Scenes/Game/::1763564300
+Game.cs::CSharpScript::3676343413493645230::1763564243::0::1::::<>Node2D<><>0<>0<><>::
+Game.tscn::PackedScene::2553863760306503649::1763564300::0::1::::<><><>0<>0<><>::uid://bsm33r1d6vr07::::res://Scenes/Game/Game.cs<>uid://d216souoesuys::::res://assets/GameBg.png<>uid://buoptplmkqwae::::res://Scenes/Paddle/Paddle.tscn<>uid://csy71taqtjqlu::::res://Scenes/Gem/Gem.tscn
 ::res://Scenes/Gem/::1763218922
 Gem.cs::CSharpScript::3811091616331362748::1763396347::0::1::::<>Area2D<><>0<>0<><>::
 Gem.tscn::PackedScene::6087775992074656322::1763218922::0::1::::<><><>0<>0<><>::uid://bukeeffsx0b1m::::res://Scenes/Gem/Gem.cs<>uid://b5w75r40sc3p3::::res://assets/element_red_diamond.png

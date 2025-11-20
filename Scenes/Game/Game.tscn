@@ -5,10 +5,10 @@
 [ext_resource type="PackedScene" uid="uid://buoptplmkqwae" path="res://Scenes/Paddle/Paddle.tscn" id="3_xbxml"]
 [ext_resource type="PackedScene" uid="uid://csy71taqtjqlu" path="res://Scenes/Gem/Gem.tscn" id="4_ln2h6"]
 
-[node name="Game" type="Node2D" node_paths=PackedStringArray("_gem")]
+[node name="Game" type="Node2D" node_paths=PackedStringArray("_spawnTimer")]
 script = ExtResource("1_rdw05")
-_gem = NodePath("")
 _gemScene = ExtResource("4_ln2h6")
+_spawnTimer = NodePath("Timer")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 modulate = Color(0.24115604, 0.24115604, 0.24115604, 0.70980394)
@@ -18,3 +18,7 @@ texture = ExtResource("2_gwu2e")
 
 [node name="Paddle" parent="." instance=ExtResource("3_xbxml")]
 position = Vector2(576, 600)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true

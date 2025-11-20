@@ -34,10 +34,16 @@ public partial class Game : Node2D
 
 		gem.Position = new Vector2( rx, -100);
 		gem.OnScored += OnScored;
+		gem.OnGemOffScreen += GameOver;
     }
 
 	private void OnScored()
     {
         GD.Print("OnScored received !");
+    }
+
+	private void GameOver()
+    {
+        GD.Print("Game Over!!!");
     }
 }

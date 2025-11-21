@@ -5,10 +5,11 @@
 [ext_resource type="PackedScene" uid="uid://buoptplmkqwae" path="res://Scenes/Paddle/Paddle.tscn" id="3_xbxml"]
 [ext_resource type="PackedScene" uid="uid://csy71taqtjqlu" path="res://Scenes/Gem/Gem.tscn" id="4_ln2h6"]
 
-[node name="Game" type="Node2D" node_paths=PackedStringArray("_spawnTimer")]
+[node name="Game" type="Node2D" node_paths=PackedStringArray("_spawnTimer", "_scoreLabel")]
 script = ExtResource("1_rdw05")
 _gemScene = ExtResource("4_ln2h6")
 _spawnTimer = NodePath("Timer")
+_scoreLabel = NodePath("ScoreLabel")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 modulate = Color(0.24115604, 0.24115604, 0.24115604, 0.70980394)
@@ -22,3 +23,15 @@ position = Vector2(576, 600)
 [node name="Timer" type="Timer" parent="."]
 wait_time = 2.0
 autostart = true
+
+[node name="ScoreLabel" type="Label" parent="."]
+z_index = 1
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 64.0
+offset_bottom = 47.0
+theme_override_colors/font_color = Color(0.9607843, 0.39607844, 0.9372549, 1)
+theme_override_colors/font_shadow_color = Color(1.0184411, 1.0184411, 1.0184411, 0.34901962)
+theme_override_colors/font_outline_color = Color(0.16947827, 0.16947827, 0.16947827, 0.9607843)
+theme_override_font_sizes/font_size = 50
+text = "000"

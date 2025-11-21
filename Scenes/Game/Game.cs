@@ -8,6 +8,7 @@ public partial class Game : Node2D
 	[Export] private PackedScene _gemScene;
 	[Export] private Timer _spawnTimer;
 	[Export] private Label _scoreLabel;
+	[Export] private AudioStreamPlayer _music;
 
 	private int _score = 0;
 
@@ -56,5 +57,6 @@ public partial class Game : Node2D
             node.SetProcess(false);
         }
 		_spawnTimer.Stop();
+		_music.Stop();
     }
 }

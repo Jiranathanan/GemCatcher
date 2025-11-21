@@ -1,17 +1,21 @@
-[gd_scene load_steps=6 format=3 uid="uid://bcnd07bjf1grh"]
+[gd_scene load_steps=8 format=3 uid="uid://bcnd07bjf1grh"]
 
 [ext_resource type="Script" uid="uid://bsm33r1d6vr07" path="res://Scenes/Game/Game.cs" id="1_rdw05"]
 [ext_resource type="Texture2D" uid="uid://d216souoesuys" path="res://assets/GameBg.png" id="2_gwu2e"]
+[ext_resource type="AudioStream" uid="uid://dtfk07ryobxgf" path="res://assets/explode.wav" id="3_1q8bt"]
 [ext_resource type="PackedScene" uid="uid://buoptplmkqwae" path="res://Scenes/Paddle/Paddle.tscn" id="3_xbxml"]
 [ext_resource type="PackedScene" uid="uid://csy71taqtjqlu" path="res://Scenes/Gem/Gem.tscn" id="4_ln2h6"]
 [ext_resource type="AudioStream" uid="uid://df347gxeph5km" path="res://assets/bgm_action_5.mp3" id="5_y3kpf"]
+[ext_resource type="AudioStream" uid="uid://boe377tli867s" path="res://assets/spell1_0.wav" id="6_3k6gv"]
 
-[node name="Game" type="Node2D" node_paths=PackedStringArray("_spawnTimer", "_scoreLabel", "_music")]
+[node name="Game" type="Node2D" node_paths=PackedStringArray("_spawnTimer", "_scoreLabel", "_music", "_effects")]
 script = ExtResource("1_rdw05")
 _gemScene = ExtResource("4_ln2h6")
 _spawnTimer = NodePath("Timer")
 _scoreLabel = NodePath("ScoreLabel")
 _music = NodePath("Music")
+_effects = NodePath("Effects")
+_explodeSound = ExtResource("3_1q8bt")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 modulate = Color(0.24115604, 0.24115604, 0.24115604, 0.70980394)
@@ -42,3 +46,6 @@ text = "000"
 stream = ExtResource("5_y3kpf")
 volume_db = -16.0
 autoplay = true
+
+[node name="Effects" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_3k6gv")
